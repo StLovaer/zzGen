@@ -1,9 +1,55 @@
 {
-    "tables":["tb1","tb2"],
-    "tb1":["col1","col2"],
-    "tb2":["col3","col4"],
-    "tb1.col1":"int",
-    "tb1.col2":"float",
-    "tb2.col3":"int",
-    "tb2.col4":"float"
-}
+    "Table Schema": "noobschema",
+    "Tables": [
+      {
+        "Table Name": "tb1",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "int"
+              }
+            ]
+          },
+          {
+            "Column Name": "col2",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "float"
+              }
+            ]            
+          }
+        ]
+      },
+      {
+        "Table Name": "tb2",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "int"
+              }
+            ]
+          },
+          {
+            "Column Name": "col2",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "float"
+              }
+            ]            
+          }
+        ]
+      } 
+
+    ],
+    "Constraints": [
+
+    ]
+  }
