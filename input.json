@@ -1,0 +1,9 @@
+{
+    "tables":["tb1","tb2"],
+    "tb1":["col1","col2"],
+    "tb2":["col3","col4"],
+    "tb1.col1":"int",
+    "tb1.col2":"float",
+    "tb2.col3":"int",
+    "tb2.col4":"float"
+}
