@@ -46,6 +46,52 @@
             ]            
           }
         ]
+      },
+      {
+        "Table Name": "tb3",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "int"
+              }
+            ]
+          },
+          {
+            "Column Name": "col2",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "float"
+              }
+            ]            
+          }
+        ]
+      },
+      {
+        "Table Name": "tb4",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "int"
+              }
+            ]
+          },
+          {
+            "Column Name": "col2",
+            "is_nullable": false,
+            "Column Type": [
+              {
+                "data_type": "float"
+              }
+            ]            
+          }
+        ]
       } 
 
     ],
