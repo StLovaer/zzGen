@@ -1,8 +1,8 @@
 {
-    "Table Schema": "noobschema",
+    "Table Schema": "tpcc",
     "Tables": [
       {
-        "Table Name": "tb11",
+        "Table Name": "",
         "Table Columns": [
           {
             "Column Name": "col1",
