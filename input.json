@@ -46,6 +46,52 @@
             "Refrenced Primary Key Type": ""
           }
         ]
+      },
+      {
+        "Table Name": "tb33",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb44",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
+          }
+        ]
       }
 
     ],
