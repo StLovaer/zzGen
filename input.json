@@ -17,8 +17,10 @@
         "Foreign Key": [
           {
             "Foreign Key Name": "",
+            "Foreign Key Type": "",
             "Refrenced Table": "",
-            "Refrenced Primary Key": ""
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
           }
         ]
       },
@@ -38,8 +40,10 @@
         "Foreign Key": [
           {
             "Foreign Key Name": "",
+            "Foreign Key Type": "",
             "Refrenced Table": "",
-            "Refrenced Primary Key": ""
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
           }
         ]
       }

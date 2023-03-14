@@ -2,10 +2,223 @@
     "Table Schema": "tpcc",
     "Tables": [
       {
-        "Table Name": "",
+        "Table Name": "warehouse",
         "Table Columns": [
           {
-            "Column Name": "col1",
+            "Column Name": "w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "w_ytd",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "w_tax",
+            "Data Type": "numeric(4,4)"
+          },
+          {
+            "Column Name": "w_name",
+            "Data Type": "varchar(10)"
+          },
+          {
+            "Column Name": "w_street_1",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_street_2",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_city",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_state",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "w_zip",
+            "Data Type": "char(9)"
+          }
+        ],
+        "Primary Key": {
+          "Name": "w_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+
+        ]
+      },
+      {
+        "Table Name": "district",
+        "Table Columns": [
+          {
+            "Column Name": "d_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_ytd",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "d_tax",
+            "Data Type": "numeric(4,4)"
+          },
+          {
+            "Column Name": "d_next_o_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_name",
+            "Data Type": "varchar(10)"
+          },
+          {
+            "Column Name": "d_street_1",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_street_2",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_city",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_state",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "d_zip",
+            "Data Type": "char(9)"
+          }
+        ],
+        "Primary Key": {
+          "Name": "d_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "d_w_id",
+            "Refrenced Table": "warehouse",
+            "Refrenced Primary Key": "w_id"
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb22",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
             "Data Type": "int"
           }
 
