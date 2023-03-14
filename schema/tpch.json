@@ -1,14 +1,22 @@
 {
-    "Table Schema": "noobschema",
+    "Table Schema": "tpch",
     "Tables": [
       {
-        "Table Name": "tb11",
+        "Table Name": "region",
         "Table Columns": [
           {
-            "Column Name": "col1",
+            "Column Name": "r_regionkey",
             "Data Type": "int"
-          }
-
+          },
+          {
+            "Column Name": "r_name",
+            "Data Type": "char(25)"
+          },
+          {
+            "Column Name": "r_commet",
+            "Data Type": "varchar(152)"
+          },
+          
         ],
         "Primary Key": {
           "Name": "",
@@ -51,10 +59,6 @@
     ],
     "Constraints": {
       "rawRatio": 0.7,
-      "average table num": [0.5, 0.5],
-      "dataDistribution": [0.5, 0.5],
-      "feature4" : [0.25, 0.25, 0.25, 0.25],
-      "dataDomainDist" : [],
-      "constraintNum" : [0.4,0.4,0.2]
+      "average table num": 1
     }
   }
