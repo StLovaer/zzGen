@@ -98,7 +98,7 @@
     "Constraints": {
       "rawRatio": 0.7,
       "average table num": [0.5, 0.5],
-      "dataDistribution": [0.25, 0.25, 0.25, 0.25],
+      "tableDistribution": [0.25, 0.25, 0.25, 0.25],
       "feature4" : [0.25, 0.25, 0.25, 0.25],
       "tableDomainDist" : [0.5, 0.5],
       "constraintNum" : [0.4,0.4,0.2]
