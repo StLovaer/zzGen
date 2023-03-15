@@ -54,7 +54,7 @@
       "average table num": [0.5, 0.5],
       "dataDistribution": [0.5, 0.5],
       "feature4" : [0.25, 0.25, 0.25, 0.25],
-      "dataDomainDist" : [],
+      "tableDomainDist" : [0.5, 0.5],
       "constraintNum" : [0.4,0.4,0.2]
     }
   }
