@@ -46,13 +46,59 @@
             "Refrenced Primary Key Type": ""
           }
         ]
+      },
+      {
+        "Table Name": "tb33",
+        "Table Columns": [
+          {
+            "Column Name": "col1",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "tb44",
+        "Table Columns": [
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
+          }
+
+        ],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Refrenced Table": "",
+            "Refrenced Primary Key": "",
+            "Refrenced Primary Key Type": ""
+          }
+        ]
       }
 
     ],
     "Constraints": {
       "rawRatio": 0.7,
       "average table num": [0.5, 0.5],
-      "dataDistribution": [0.5, 0.5],
+      "dataDistribution": [0.25, 0.25, 0.25, 0.25],
       "feature4" : [0.25, 0.25, 0.25, 0.25],
       "tableDomainDist" : [0.5, 0.5],
       "constraintNum" : [0.4,0.4,0.2]
