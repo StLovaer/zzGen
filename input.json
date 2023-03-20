@@ -7,9 +7,14 @@
           {
             "Column Name": "col1",
             "Data Type": "int"
+          },
+          {
+            "Column Name": "col2",
+            "Data Type": "int"
           }
 
         ],
+        "Column Distribution" : [0.5, 0.5],
         "Primary Key": {
           "Name": "",
           "Data Type": ""
@@ -18,9 +23,9 @@
           {
             "Foreign Key Name": "",
             "Foreign Key Type": "",
-            "Refrenced Table": "",
-            "Refrenced Primary Key": "",
-            "Refrenced Primary Key Type": ""
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
           }
         ]
       },
@@ -28,11 +33,16 @@
         "Table Name": "tb22",
         "Table Columns": [
           {
-            "Column Name": "col2",
+            "Column Name": "col3",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "co4",
             "Data Type": "int"
           }
 
         ],
+        "Column Distribution" : [0.5, 0.5],
         "Primary Key": {
           "Name": "",
           "Data Type": ""
@@ -41,9 +51,9 @@
           {
             "Foreign Key Name": "",
             "Foreign Key Type": "",
-            "Refrenced Table": "",
-            "Refrenced Primary Key": "",
-            "Refrenced Primary Key Type": ""
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
           }
         ]
       },
@@ -51,11 +61,16 @@
         "Table Name": "tb33",
         "Table Columns": [
           {
-            "Column Name": "col1",
+            "Column Name": "col5",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "col6",
             "Data Type": "int"
           }
 
         ],
+        "Column Distribution" : [0.5, 0.5],
         "Primary Key": {
           "Name": "",
           "Data Type": ""
@@ -64,9 +79,9 @@
           {
             "Foreign Key Name": "",
             "Foreign Key Type": "",
-            "Refrenced Table": "",
-            "Refrenced Primary Key": "",
-            "Refrenced Primary Key Type": ""
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
           }
         ]
       },
@@ -74,11 +89,16 @@
         "Table Name": "tb44",
         "Table Columns": [
           {
-            "Column Name": "col2",
+            "Column Name": "col7",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "col5",
             "Data Type": "int"
           }
 
         ],
+        "Column Distribution" : [0.5, 0.5],
         "Primary Key": {
           "Name": "",
           "Data Type": ""
@@ -87,9 +107,9 @@
           {
             "Foreign Key Name": "",
             "Foreign Key Type": "",
-            "Refrenced Table": "",
-            "Refrenced Primary Key": "",
-            "Refrenced Primary Key Type": ""
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
           }
         ]
       }
@@ -100,7 +120,7 @@
       "average table num": [0.5, 0.5],
       "tableDistribution": [0.25, 0.25, 0.25, 0.25],
       "feature4" : [0.25, 0.25, 0.25, 0.25],
-      "tableDomainDist" : [0.5, 0.5],
+      "dataDomainDist" : [],
       "constraintNum" : [0.4,0.4,0.2]
     }
   }
