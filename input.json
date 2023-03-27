@@ -6,7 +6,7 @@
         "Table Columns": [
           {
             "Column Name": "col1",
-            "Data Type": "int"
+            "Data Type": "varchar"
           },
           {
             "Column Name": "col2",
@@ -62,7 +62,7 @@
         "Table Columns": [
           {
             "Column Name": "col5",
-            "Data Type": "int"
+            "Data Type": "varchar"
           },
           {
             "Column Name": "col6",
@@ -94,7 +94,7 @@
           },
           {
             "Column Name": "col5",
-            "Data Type": "int"
+            "Data Type": "varchar"
           }
 
         ],
@@ -115,12 +115,13 @@
       }
     ],
     "Constraints": {
-      "rawRatio": 0.7,
+      "rawRatio": 0.9,
       "average table num": [0.5, 0.5],
       "table distribution": [0.25, 0.25, 0.25, 0.25],
       "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
       "table domain distribution" : [0.5, 0.5],
       "query logic predicate num" : [0.4,0.4,0.2],
-      "average aggregation operator num" : [0.5,0.25,0.25]
+      "average aggregation operator num" : [0.5,0.3,0.2],
+      "average query colomn num":[0.3,0.3,0.2,0.2]
     }
   }
