@@ -115,7 +115,8 @@
       }
     ],
     "Constraints": {
-      "rawRatio": 0.9,
+      "size of workload" : 50,
+      "read write ratio": 0.9,
       "average table num": [0.5, 0.5],
       "table distribution": [0.25, 0.25, 0.25, 0.25],
       "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
@@ -123,5 +124,6 @@
       "query logic predicate num" : [0.4,0.4,0.2],
       "average aggregation operator num" : [0.5,0.3,0.2],
       "average query colomn num":[0.3,0.3,0.2,0.2]
-    }
+    },
+    "Generation File":"workloadGen.wg"
   }
