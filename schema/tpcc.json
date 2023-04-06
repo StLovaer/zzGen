@@ -1,0 +1,653 @@
+{
+    "Table Schema": "tpcc",
+    "Tables": [
+      {
+        "Table Name": "warehouse",
+        "Table Columns": [
+          {
+            "Column Name": "w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "w_ytd",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "w_tax",
+            "Data Type": "numeric(4,4)"
+          },
+          {
+            "Column Name": "w_name",
+            "Data Type": "varchar(10)"
+          },
+          {
+            "Column Name": "w_street_1",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_street_2",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_city",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "w_state",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "w_zip",
+            "Data Type": "char(9)"
+          }
+        ],
+        "Column Distribution" : [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+        "Primary Key": {
+          "Name": "w_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "district",
+        "Table Columns": [
+          {
+            "Column Name": "d_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_ytd",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "d_tax",
+            "Data Type": "numeric(4,4)"
+          },
+          {
+            "Column Name": "d_next_o_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "d_name",
+            "Data Type": "varchar(10)"
+          },
+          {
+            "Column Name": "d_street_1",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_street_2",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_city",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "d_state",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "d_zip",
+            "Data Type": "char(9)"
+          }
+        ],
+        "Column Distribution" : [0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909, 0.0909 ],
+        "Primary Key": {
+          "Name": "d_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "d_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "warehouse",
+            "Referenced Primary Key": "w_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "customer",
+        "Table Columns": [
+          {
+            "Column Name": "c_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "c_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "c_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "c_discount",
+            "Data Type": "numeric(4,4)"
+          },
+          {
+            "Column Name": "c_credit",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "c_last",
+            "Data Type": "varchar(16)"
+          },
+          {
+            "Column Name": "c_first",
+            "Data Type": "varchar(16)"
+          },
+          {
+            "Column Name": "c_credit_lim",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "c_balance",
+            "Data Type": "numeric(12,2)"
+          },
+          {
+            "Column Name": "c_ytd_payment",
+            "Data Type": "double"
+          },
+          {
+            "Column Name": "c_payment_cnt",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "c_delivery_cnt",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "c_street_1",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "c_street_2",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "c_city",
+            "Data Type": "varchar(20)"
+          },
+          {
+            "Column Name": "c_state",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "c_zip",
+            "Data Type": "char(9)"
+          },
+          {
+            "Column Name": "c_phone",
+            "Data Type": "char(16)"
+          },
+          {
+            "Column Name": "c_since",
+            "Data Type": "timestamp(0)"
+          },
+          {
+            "Column Name": "c_middle",
+            "Data Type": "char(2)"
+          },
+          {
+            "Column Name": "c_data",
+            "Data Type": "varchar(500)"
+          }
+
+        ],
+        "Column Distribution" : [0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476,0.0476],
+        "Primary Key": {
+          "Name": "c_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "c_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "district",
+            "Referenced Primary Key": "d_w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "c_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "district",
+            "Referenced Primary Key": "d_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "oorder",
+        "Table Columns": [
+          {
+            "Column Name": "o_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_c_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_carrier_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_ol_cnt",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_all_local",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "o_entry_d",
+            "Data Type": "timestamp(0)"
+          }
+        ],
+        "Column Distribution" : [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125],
+        "Primary Key": {
+          "Name": "o_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "o_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "o_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_d_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "o_c_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "history",
+        "Table Columns": [
+          {
+            "Column Name": "h_c_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "h_c_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "h_c_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "h_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "h_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "h_date",
+            "Data Type": "timestamp(0)"
+          },
+          {
+            "Column Name": "h_amount",
+            "Data Type": "numeric(6,2)"
+          },
+          {
+            "Column Name": "h_data",
+            "Data Type": "varchar(24)"
+          }
+        ],
+        "Column Distribution" : [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "h_c_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "h_c_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_d_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "h_c_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "customer",
+            "Referenced Primary Key": "c_w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "h_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "district",
+            "Referenced Primary Key": "d_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "h_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "district",
+            "Referenced Primary Key": "d_w_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "new_order",
+        "Table Columns": [
+          {
+            "Column Name": "no_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "no_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "no_o_id",
+            "Data Type": "int"
+          }
+        ],
+        "Column Distribution" : [0.3333, 0.3333, 0.3333, 0.3333],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "no_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "no_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_d_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "no_o_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "item",
+        "Table Columns": [
+          {
+            "Column Name": "i_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "i_name",
+            "Data Type": "varchar(24)"
+          },
+          {
+            "Column Name": "i_price",
+            "Data Type": "numeric(5,2)"
+          },
+          {
+            "Column Name": "i_data",
+            "Data Type": "varchar(50)"
+          },
+          {
+            "Column Name": "i_im_id",
+            "Data Type": "int"
+          }
+        ],
+        "Column Distribution" :[0.2, 0.2, 0.2, 0.2, 0.2],
+        "Primary Key": {
+          "Name": "i_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "stock",
+        "Table Columns": [
+          {
+            "Column Name": "s_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "s_i_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "s_quantity",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "s_ytd",
+            "Data Type": "numeric(8,2)"
+          },
+          {
+            "Column Name": "s_order_cnt",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "s_remote_cnt",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "data",
+            "Data Type": "varchar(50)"
+          },
+          {
+            "Column Name": "s_dist_01",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_02",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_03",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_04",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_05",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_06",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_07",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_08",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_09",
+            "Data Type": "char(24)"
+          },
+          {
+            "Column Name": "s_dist_10",
+            "Data Type": "char(24)"
+          }
+        ],
+        "Column Distribution" : [0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588, 0.0588],
+        "Primary Key": {
+          "Name": "",
+          "Data Type": ""
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "s_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "warehouse",
+            "Referenced Primary Key": "w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "s_i_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "item",
+            "Referenced Primary Key": "i_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "order_line",
+        "Table Columns": [
+          {
+            "Column Name": "ol_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_d_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_o_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_number",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_i_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_delivery_d",
+            "Data Type": "timestamp(0)"
+          },
+          {
+            "Column Name": "ol_amount",
+            "Data Type": "numeric(6,2)"
+          },
+          {
+            "Column Name": "ol_supply_w_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_quantity",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ol_dist_info",
+            "Data Type": "char(24)"
+          }
+        ],
+        "Column Distribution" : [0.1, 0.1 ,0.1 ,0.1 ,0.1 ,0.1 ,0.1 ,0.1 ,0.1 ,0.1],
+        "Primary Key": {
+          "Name": "ol_number",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "ol_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_w_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "ol_d_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_d_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "ol_o_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "oorder",
+            "Referenced Primary Key": "o_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "ol_i_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "stock",
+            "Referenced Primary Key": "s_i_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "ol_supply_w_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "stock",
+            "Referenced Primary Key": "s_w_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      }
+
+    ],
+    "Constraints": {
+      "rawRatio": 0.7,
+      "average table num": [0.5, 0.5],
+      "tableDistribution": [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+      "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
+      "table domain distribution" : [0.5, 0.5],
+      "query logic predicate num" : [0.4,0.4,0.2],
+      "average aggregation operator num" : [0.5,0.25,0.25]
+    }
+  }

@@ -1,0 +1,98 @@
+{
+    "Table Schema": "smallbank",
+    "Tables": [
+      {
+        "Table Name": "accounts",
+        "Table Columns": [
+          {
+            "Column Name": "custid",
+            "Data Type": "bigint"
+          },
+          {
+            "Column Name": "name",
+            "Data Type": "varchar(64)"
+          }
+
+        ],
+        "Column Distribution" : [0.5, 0.5],
+        "Primary Key": {
+          "Name": "custid",
+          "Data Type": "bigint"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "checking",
+        "Table Columns": [
+          {
+            "Column Name": "chustid",
+            "Data Type": "bigint"
+          },
+          {
+            "Column Name": "bal",
+            "Data Type": "double"
+          }
+
+        ],
+        "Column Distribution" : [0.5, 0.5],
+        "Primary Key": {
+          "Name": "custid",
+          "Data Type": "bigint"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "custid",
+            "Foreign Key Type": "bigint",
+            "Referenced Table": "accounts",
+            "Referenced Primary Key": "custid",
+            "Referenced Primary Key Type": "bigint"
+          }
+        ]
+      },
+      {
+        "Table Name": "savings",
+        "Table Columns": [
+          {
+            "Column Name": "custid",
+            "Data Type": "bigint"
+          },
+          {
+            "Column Name": "bal",
+            "Data Type": "double"
+          }
+
+        ],
+        "Column Distribution" : [0.5, 0.5],
+        "Primary Key": {
+          "Name": "custid",
+          "Data Type": "bal"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "custid",
+            "Foreign Key Type": "bigint",
+            "Referenced Table": "accounts",
+            "Referenced Primary Key": "custid",
+            "Referenced Primary Key Type": "accounts"
+          }
+        ]
+      }
+    ],
+    "Constraints": {
+      "rawRatio": 0.7,
+      "average table num": [0.5, 0.5],
+      "table distribution": [0.3333, 0.3333, 0.3333],
+      "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
+      "table domain distribution" : [0.5, 0.5],
+      "query logic predicate num" : [0.4,0.4,0.2],
+      "average aggregation operator num" : [0.5,0.25,0.25]
+    }
+  }

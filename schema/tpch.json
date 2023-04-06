@@ -1,0 +1,432 @@
+{
+  "Table Schema": "tpch",
+  "Tables": [
+    {
+      "Table Name": "region",
+      "Table Columns": [
+        {
+          "Column Name": "r_regionkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "r_name",
+          "Data Type": "char(25)"
+        },
+        {
+          "Column Name": "r_comment",
+          "Data Type": "varchar(152)"
+        }
+      ],
+      "Column Distribution" : [0.3333, 0.3333, 0.3333],
+      "Primary Key": {
+        "Name": "r_regionkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "",
+          "Foreign Key Type": "",
+          "Referenced Table": "",
+          "Referenced Primary Key": "",
+          "Referenced Primary Key Type": ""
+        }
+      ]
+    },
+    {
+      "Table Name": "nation",
+      "Table Columns": [
+        {
+          "Column Name": "n_nationkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "n_name",
+          "Data Type": "char(25)"
+        },
+        {
+          "Column Name": "n_regionkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "n_comment",
+          "Data Type": "varchar(152)"
+        }
+      ],
+      "Column Distribution" : [0.25, 0.25, 0.25, 0.25],
+      "Primary Key": {
+        "Name": "n_nationkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "n_regionkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "region",
+          "Referenced Primary Key": "r_regionkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    },
+    {
+      "Table Name": "customer",
+      "Table Columns": [
+        {
+          "Column Name": "c_custkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "c_name",
+          "Data Type": "varchar(25)"
+        },
+        {
+          "Column Name": "c_address",
+          "Data Type": "varchar(40)"
+        },
+        {
+          "Column Name": "c_nationkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "c_phone",
+          "Data Type": "char(15)"
+        },
+        {
+          "Column Name": "c_acctbal",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "c_mktsegment",
+          "Data Type": "char(10)"
+        },
+        {
+          "Column Name": "c_comment",
+          "Data Type": "varchar(117)"
+        }
+      ],
+      "Column Distribution" : [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125],
+      "Primary Key": {
+        "Name": "c_custkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "c_nationkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "nation",
+          "Referenced Primary Key": "n_nationkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    },
+    {
+      "Table Name": "supplier",
+      "Table Columns": [
+        {
+          "Column Name": "s_suppkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "s_name",
+          "Data Type": "char(25)"
+        },
+        {
+          "Column Name": "s_address",
+          "Data Type": "varchar(40)"
+        },
+        {
+          "Column Name": "s_nationkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "s_phone",
+          "Data Type": "char(15)"
+        },
+        {
+          "Column Name": "acctbal",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "s_comment",
+          "Data Type": "varchar(101)"
+        }
+      ],
+      "Column Distribution" : [0.1428, 0.1428, 0.1428, 0.1428, 0.1428, 0.1428, 0.1428],
+      "Primary Key": {
+        "Name": "s_suppkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "s_nationkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "nation",
+          "Referenced Primary Key": "n_nationkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    },
+    {
+      "Table Name": "part",
+      "Table Columns": [
+        {
+          "Column Name": "p_partkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "p_name",
+          "Data Type": "varchar(55)"
+        },
+        {
+          "Column Name": "p_mfgr",
+          "Data Type": "char(25)"
+        },
+        {
+          "Column Name": "p_brand",
+          "Data Type": "char(10)"
+        },
+        {
+          "Column Name": "p_type",
+          "Data Type": "varchar(25)"
+        },
+        {
+          "Column Name": "p_size",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "p_container",
+          "Data Type": "char(10)"
+        },
+        {
+          "Column Name": "p_retailprice",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "p_comment",
+          "Data Type": "varchar(23)"
+        }
+      ],
+      "Column Distribution" : [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+      "Primary Key": {
+        "Name": "p_partkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "",
+          "Foreign Key Type": "",
+          "Referenced Table": "",
+          "Referenced Primary Key": "",
+          "Referenced Primary Key Type": ""
+        }
+      ]
+    },
+    {
+      "Table Name": "orders",
+      "Table Columns": [
+        {
+          "Column Name": "o_orderkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "o_custkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "o_orderstatus",
+          "Data Type": "char(1)"
+        },
+        {
+          "Column Name": "totalprice",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "o_orderdate",
+          "Data Type": "date"
+        },
+        {
+          "Column Name": "o_orderpriority",
+          "Data Type": "char(15)"
+        },
+        {
+          "Column Name": "o_clerk",
+          "Data Type": "char(15)"
+        },
+        {
+          "Column Name": "o_shipppriority",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "o_comment",
+          "Data Type": "varchar(79)"
+        }
+      ],
+      "Column Distribution" : [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+      "Primary Key": {
+        "Name": "o_orderkey",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "o_custkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "customer",
+          "Referenced Primary Key": "c_custkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    },
+    {
+      "Table Name": "partsupp",
+      "Table Columns": [
+        {
+          "Column Name": "ps_partkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "ps_suppkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "ps_availqty",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "ps_supplycost",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "ps_comment",
+          "Data Type": "varchar(199)"
+        }
+      ],
+      "Column Distribution" : [0.2, 0.2, 0.2, 0.2, 0.2],
+      "Primary Key": {
+        "Name": "",
+        "Data Type": ""
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "ps_partkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "part",
+          "Referenced Primary Key": "p_partkey",
+          "Referenced Primary Key Type": "int"
+        },
+        {
+          "Foreign Key Name": "ps_suppkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "supplier",
+          "Referenced Primary Key": "s_suppkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    },
+    {
+      "Table Name": "lineitem",
+      "Table Columns": [
+        {
+          "Column Name": "l_orderkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "l_linenumber",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "l_partkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "l_suppkey",
+          "Data Type": "int"
+        },
+        {
+          "Column Name": "l_quantity",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "l_extendedprice",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "l_discount",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "l_tax",
+          "Data Type": "numeric(15,2)"
+        },
+        {
+          "Column Name": "l_returnflag",
+          "Data Type": "char(1)"
+        },
+        {
+          "Column Name": "l_linestatus",
+          "Data Type": "char(1)"
+        },
+        {
+          "Column Name": "l_shipdate",
+          "Data Type": "date"
+        },
+        {
+          "Column Name": "l_commitdate",
+          "Data Type": "date"
+        },
+        {
+          "Column Name": "l_receiptdate",
+          "Data Type": "date"
+        },
+        {
+          "Column Name": "l_shipstruct",
+          "Data Type": "char(25)"
+        },
+        {
+          "Column Name": "l_shipmode",
+          "Data Type": "char(10)"
+        },
+        {
+          "Column Name": "comment",
+          "Data Type": "varchar(44)"
+        }
+
+      ],
+      "Column Distribution" : [0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625, 0.0625],
+      "Primary Key": {
+        "Name": "l_linenumber",
+        "Data Type": "int"
+      },
+      "Foreign Key": [
+        {
+          "Foreign Key Name": "l_orderkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "orders",
+          "Referenced Primary Key": "o_orderkey",
+          "Referenced Primary Key Type": "int"
+        },
+        {
+          "Foreign Key Name": "l_partkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "partsupp",
+          "Referenced Primary Key": "ps_partkey",
+          "Referenced Primary Key Type": "int"
+        },
+        {
+          "Foreign Key Name": "l_suppkey",
+          "Foreign Key Type": "int",
+          "Referenced Table": "partsupp",
+          "Referenced Primary Key": "ps_suppkey",
+          "Referenced Primary Key Type": "int"
+        }
+      ]
+    }
+  ],
+  "Constraints": {
+    "rawRatio": 0.7,
+    "average table num": [0.5, 0.5],
+    "tableDistribution": [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125],
+    "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
+    "table domain distribution" : [0.5, 0.5],
+    "query logic predicate num" : [0.4,0.4,0.2],
+    "average aggregation operator num" : [0.5,0.25,0.25]
+  }
+}

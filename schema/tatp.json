@@ -1,0 +1,301 @@
+{
+    "Table Schema": "tatp",
+    "Tables": [
+      {
+        "Table Name": "subscriber",
+        "Table Columns": [
+          {
+            "Column Name": "s_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "sub_nbr",
+            "Data Type": "varchar(15)"
+          },
+          {
+            "Column Name": "bit_1",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_2",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_3",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_4",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_5",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_6",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_7",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_8",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_9",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "bit_10",
+            "Data Type": "smallint"
+          },          
+          {
+            "Column Name": "hex_1",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_2",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_3",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_4",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_5",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_6",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_7",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_8",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_9",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "hex_10",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_1",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_2",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_3",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_4",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_5",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_6",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_7",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_8",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_9",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "byte2_10",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "msc_location",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "vlr_location",
+            "Data Type": "int"
+          }
+        ],
+        "Column Distribution" : [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+        "Primary Key": {
+          "Name": "w_id",
+          "Data Type": "int"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "",
+            "Foreign Key Type": "",
+            "Referenced Table": "",
+            "Referenced Primary Key": "",
+            "Referenced Primary Key Type": ""
+          }
+        ]
+      },
+      {
+        "Table Name": "special_facility",
+        "Table Columns": [
+          {
+            "Column Name": "s_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "sf_type",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "is_active",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "error_cntrl",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "data_a",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "data_b",
+            "Data Type": "smallint"
+          }
+        ],
+        "Column Distribution" : [0.1666, 0.1666, 0.1666, 0.1666, 0.1666, 0.1666],
+        "Primary Key": {
+          "Name": "sf_type",
+          "Data Type": "smallint"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "s_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "subscriber",
+            "Referenced Primary Key": "s_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "access_info",
+        "Table Columns": [
+          {
+            "Column Name": "s_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "ai_type",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "data_1",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "data_2",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "data_3",
+            "Data Type": "varchar(3)"
+          },
+          {
+            "Column Name": "data_4",
+            "Data Type": "varchar(5)"
+          }
+        ],
+        "Column Distribution" : [0.1666, 0.1666, 0.1666, 0.1666, 0.1666, 0.1666],
+        "Primary Key": {
+          "Name": "ai_type",
+          "Data Type": "smallint"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "s_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "subscriber",
+            "Referenced Primary Key": "s_id",
+            "Referenced Primary Key Type": "int"
+          }
+        ]
+      },
+      {
+        "Table Name": "call_forwarding",
+        "Table Columns": [
+          {
+            "Column Name": "s_id",
+            "Data Type": "int"
+          },
+          {
+            "Column Name": "sf_type",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "start_time",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "end_time",
+            "Data Type": "smallint"
+          },
+          {
+            "Column Name": "numberx",
+            "Data Type": "varchar(15)"
+          }
+        ],
+        "Column Distribution" : [0.2, 0.2, 0.2, 0.2, 0.2],
+        "Primary Key": {
+          "Name": "start_time",
+          "Data Type": "smallint"
+        },
+        "Foreign Key": [
+          {
+            "Foreign Key Name": "s_id",
+            "Foreign Key Type": "int",
+            "Referenced Table": "special_facility",
+            "Referenced Primary Key": "s_id",
+            "Referenced Primary Key Type": "int"
+          },
+          {
+            "Foreign Key Name": "sf_type",
+            "Foreign Key Type": "smallint",
+            "Referenced Table": "special_facility",
+            "Referenced Primary Key": "sf_type",
+            "Referenced Primary Key Type": "smallint"
+          }
+        ]
+      }
+    ],
+    "Constraints": {
+      "rawRatio": 0.7,
+      "average table num": [0.5, 0.5],
+      "tableDistribution": [0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111, 0.1111],
+      "query comparison operator ratio" : [0.25, 0.25, 0.25, 0.25],
+      "table domain distribution" : [0.5, 0.5],
+      "query logic predicate num" : [0.4,0.4,0.2],
+      "average aggregation operator num" : [0.5,0.25,0.25]
+    }
+  }
