@@ -28,8 +28,3 @@ A full list of options can be displayed,
 java -jar benchbase.jar -h
 ```
 
----
-
-
-
-java -jar benchbase.jar -b tpch -c config/postgres/sample_tpch_config.xml --create=true --load=true --execute=true
