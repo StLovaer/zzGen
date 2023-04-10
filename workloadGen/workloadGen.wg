@@ -1,0 +1,500 @@
+insert into tb44 value (71,uz05c)
+select tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select count(col5) as count_value_col5 from tb44 where tb44.col5 < 47 or tb44.col7 = 50 order by col7 desc
+select avg(tb22.col3) as average_value_col3,tb22.col3,tb22.co4 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.co4 < 70
+select * from tb44 where tb33.col5 = 59 or tb33.col5 > 64
+insert into tb22 value (4,1)
+select avg(col6) as average_value_col6 from tb33 where tb22.co4 < 34
+select * from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col1 > 83 or tb22.co4 > 23
+select count(tb44.col5) as count_value_col5 from tb22 join tb44 where tb22.col3 = tb44.col7
+select count(col5) as count_value_col5 from tb33 where tb44.col5 != 45
+select tb11.col1,tb11.col1,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb11.col1 = 53
+select max(tb22.col3) as maximum_value_col3,avg(tb11.col2) as average_value_col2 from tb22 join tb11 where tb22.col3 = tb11.col1 or tb22.co4 = 24
+select max(col3) as maximum_value_col3 from tb22 where tb44.col7 = 99 or tb44.col5 > 31 or tb44.col5 < 28
+select min(tb22.col3) as minimum_value_col3,min(tb11.col2) as minimum_value_col2 from tb22 join tb11 where tb22.col3 = tb11.col1
+select count(col5) as count_value_col5 from tb33 where tb33.col6 != 55 or tb33.col5 < 19
+insert into tb44 value (76,UUr6A)
+select * from tb44 where tb33.col6 > 86
+select avg(tb44.col7) as average_value_col7 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb11.col2 > 30
+select * from tb22 where tb22.col3 = 7 or tb22.col3 = 53
+select * from tb22 where tb22.col3 != 7
+select avg(tb33.col6) as average_value_col6,count(tb33.col5) as count_value_col5,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5 and tb11.col2 != 8
+select avg(col2) as average_value_col2 from tb11 where tb44.col7 != 20
+select avg(col3) as average_value_col3 from tb22 where tb33.col5 = 57 and tb33.col5 != 80
+insert into tb11 value (24,63)
+select * from tb33 where tb33.col6 < 13 or tb33.col5 > 54 order by col6 asc
+select avg(co4) as average_value_co4 from tb22 where tb44.col7 < 78 and tb44.col7 < 31 or tb44.col7 > 16
+insert into tb33 value (Fsnkl,14)
+select count(tb44.col5) as count_value_col5,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1
+insert into tb33 value (URL5H,60)
+select * from tb22 join tb44 where tb22.col3 = tb44.col7
+select avg(col6) as average_value_col6 from tb33 where tb33.col5 = 96
+select * from tb11 where tb22.col3 != 74 and tb22.col3 != 84
+select * from tb11 where tb33.col6 < 45 or tb33.col6 < 19 and tb33.col6 > 8
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 or tb11.col1 != 22
+select avg(col1) as average_value_col1 from tb11 where tb33.col6 > 22 or tb33.col6 = 55
+select tb44.col7,tb22.col3,tb44.col7 from tb22 join tb44 where tb22.col3 = tb44.col7
+select avg(tb22.col3) as average_value_col3,max(tb22.co4) as maximum_value_co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select avg(col2) as average_value_col2 from tb11 where tb22.col3 != 41
+insert into tb33 value (GBP2g,42)
+select min(tb11.col1) as minimum_value_col1,min(tb44.col7) as minimum_value_col7,tb44.col5 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col2 > 69
+select avg(col6) as average_value_col6 from tb33 where tb33.col5 > 4 or tb33.col6 > 67
+select * from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 = 19
+select max(col3) as maximum_value_col3 from tb22 where tb22.col3 = 61 and tb22.col3 > 74
+select min(col1) as minimum_value_col1 from tb11 group by col5
+select avg(col6) as average_value_col6 from tb33 where tb22.col3 != 83
+select * from tb11 where tb33.col5 < 49 or tb33.col5 = 68
+select * from tb22 where tb44.col7 != 2 or tb44.col5 != 5
+select min(col1) as minimum_value_col1 from tb11 where tb22.col3 = 33
+select min(col2) as minimum_value_col2 from tb11 where tb11.col2 != 60
+select * from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col2 = 94
+select tb22.col3,tb22.col3,tb22.col3 from tb22 join tb33 where tb22.col3 = tb33.col5 or tb11.col1 != 60
+select * from tb44 where tb44.col7 != 63 or tb44.col7 != 22
+select * from tb11 group by col5
+select max(col7) as maximum_value_col7 from tb44 where tb44.col7 = 11 and tb44.col7 < 17 or tb44.col7 != 1
+select count(col5) as count_value_col5 from tb33 where tb33.col5 > 15
+select max(col1) as maximum_value_col1 from tb11 where tb11.col1 > 0 and tb11.col1 < 80
+insert into tb44 value (91,kUgHI)
+select avg(col2) as average_value_col2 from tb11 where tb22.co4 > 71 and tb22.co4 != 77
+select tb11.col2,tb11.col1,tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.col3 = 45
+insert into tb44 value (40,CzDLr)
+select * from tb11 where tb22.col3 > 64 or tb22.co4 != 99 and tb22.co4 > 24
+select * from tb44 where tb22.co4 < 11 or tb22.col3 != 2 and tb22.col3 > 53
+insert into tb33 value (pIVDs,37)
+select * from tb44 join tb11 where tb44.col7 = tb11.col1
+select max(co4) as maximum_value_co4 from tb22 where tb33.col6 < 91 or tb33.col6 < 57
+select * from tb11 where tb33.col6 < 16 or tb33.col5 = 73 and tb33.col6 < 19 order by col6 asc
+select * from tb11 where tb44.col7 < 33
+select tb22.co4,tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7
+select min(tb33.col6) as minimum_value_col6,tb44.col7,tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col2 = 49 and tb11.col1 < 59
+select max(co4) as maximum_value_co4 from tb22 where tb33.col6 != 69 and tb33.col5 = 13
+select avg(col2) as average_value_col2 from tb11 where tb33.col5 = 48 or tb33.col5 > 0
+select max(col1) as maximum_value_col1 from tb11 where tb44.col7 != 23 or tb44.col5 != 53
+insert into tb33 value (LKHsK,9)
+select tb33.col6,tb33.col6,tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb22.col3 = 18
+select avg(tb11.col2) as average_value_col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+select min(tb11.col2) as minimum_value_col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+select count(col5) as count_value_col5 from tb44 where tb22.col3 > 74
+select tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 > 80 or tb11.col1 > 53
+select avg(col1) as average_value_col1 from tb11 where tb11.col1 != 70
+select min(co4) as minimum_value_co4 from tb22 where tb11.col2 > 76
+select min(tb11.col2) as minimum_value_col2 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb22.col3 = 8
+select tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1
+select avg(col1) as average_value_col1 from tb11 where tb33.col6 > 22 and tb33.col5 = 53
+select tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 = 46
+insert into tb33 value (sGgZM,38)
+select * from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb11 where tb44.col5 > 23 or tb44.col7 < 30
+select count(col5) as count_value_col5 from tb33 where tb11.col2 < 7 and tb11.col1 = 58
+select avg(tb33.col6) as average_value_col6,tb11.col1,tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1
+select tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1
+select count(col5) as count_value_col5 from tb33 where tb22.col3 > 74 or tb22.col3 < 41 order by co4 desc
+select * from tb44 join tb33 where tb44.col7 = tb33.col5 or tb22.co4 < 24
+insert into tb33 value (LHUBF,92)
+select avg(col6) as average_value_col6 from tb33 where tb11.col1 != 68 and tb11.col1 < 45
+select avg(tb22.col3) as average_value_col3,tb22.col3,tb33.col6 from tb22 join tb33 where tb22.col3 = tb33.col5
+select tb44.col5 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb11.col2 > 18 and tb11.col1 > 40
+select tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb22.co4 = 43
+select * from tb44 where tb44.col7 != 85
+select count(tb33.col5) as count_value_col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select min(col1) as minimum_value_col1 from tb11 where tb44.col7 > 82 or tb44.col5 = 41
+select count(col5) as count_value_col5 from tb44 where tb11.col1 = 79 and tb11.col2 != 88
+select max(tb33.col6) as maximum_value_col6 from tb33 join tb11 where tb33.col5 = tb11.col1
+select tb22.col3 from tb22 join tb33 where tb22.col3 = tb33.col5
+select tb11.col2,tb22.co4,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.col3 = 54
+select count(col5) as count_value_col5 from tb44 where tb44.col5 > 68 and tb44.col7 > 76 and tb44.col7 > 98
+select * from tb44 where tb11.col1 < 1 and tb11.col1 != 51 order by col1 asc
+select * from tb44 where tb44.col7 != 50
+select * from tb33 where tb22.co4 = 90
+select min(col3) as minimum_value_col3 from tb22 where tb22.col3 > 80
+select min(tb11.col2) as minimum_value_col2,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1
+select max(col1) as maximum_value_col1 from tb11 group by col5
+select * from tb33 where tb33.col6 = 61
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select * from tb22 join tb33 where tb22.col3 = tb33.col5
+insert into tb11 value (75,36)
+insert into tb33 value (vZgYG,9)
+select tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb22.co4 > 88
+select * from tb11 where tb22.co4 < 16
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 or tb11.col1 = 60
+select tb44.col5,tb44.col5,tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb22.col3 < 99 and tb22.col3 > 79
+select count(col5) as count_value_col5 from tb33 where tb11.col1 > 80 order by col1 desc
+select tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col2 != 6
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 and tb22.col3 = 2
+select count(tb33.col5) as count_value_col5,tb33.col6,tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(co4) as average_value_co4 from tb22 where tb44.col5 != 57 and tb44.col7 < 47 and tb44.col7 = 47
+select * from tb22 where tb22.col3 = 41 or tb22.col3 < 9 or tb22.col3 != 78
+select * from tb22 where tb44.col5 > 67 or tb44.col7 != 49 and tb44.col7 > 74
+select * from tb22 where tb44.col5 < 98 or tb44.col5 < 31
+select * from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 = 65
+select tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1
+select tb11.col1,tb11.col1,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.co4 < 88
+select max(tb11.col2) as maximum_value_col2,tb11.col1,tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb22.co4 > 20
+select min(col2) as minimum_value_col2 from tb11 where tb22.co4 = 27
+select max(col3) as maximum_value_col3 from tb22 where tb44.col7 < 98 and tb44.col7 != 69 or tb44.col5 < 75
+select avg(col2) as average_value_col2 from tb11 where tb22.co4 != 69
+insert into tb11 value (77,16)
+select * from tb22 where tb33.col6 != 91
+select count(col5) as count_value_col5 from tb33 where tb22.col3 > 73 or tb22.col3 < 29
+select max(col3) as maximum_value_col3 from tb22 where tb33.col5 != 56 and tb33.col5 < 53
+select tb33.col6,tb44.col7 from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(col2) as average_value_col2 from tb11 where tb22.co4 = 2 and tb22.col3 = 23
+select avg(co4) as average_value_co4 from tb22 where tb11.col2 != 26 and tb11.col2 = 53 and tb11.col1 < 58
+select count(col5) as count_value_col5 from tb44 where tb11.col1 < 69
+select min(col6) as minimum_value_col6 from tb33 where tb33.col5 != 42 or tb33.col6 != 45 or tb33.col5 < 72
+select * from tb11 where tb33.col5 < 1 and tb33.col5 > 19
+select tb11.col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb22 where tb22.col3 != 84 and tb22.col3 < 22 and tb22.col3 != 27
+select min(tb44.col7) as minimum_value_col7,avg(tb22.co4) as average_value_co4,tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col2 > 72
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col1 = 94 and tb11.col2 != 95
+select min(tb44.col7) as minimum_value_col7,tb44.col7 from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(col6) as average_value_col6 from tb33 where tb11.col2 > 85 and tb11.col1 != 48 and tb11.col2 = 44
+select tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5
+select tb44.col7,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1
+insert into tb33 value (m8FZQ,68)
+select tb22.col3,tb44.col7,tb22.co4 from tb22 join tb44 where tb22.col3 = tb44.col7 or tb11.col2 < 48 and tb22.col3 != 10
+select tb44.col7,tb11.col1,tb44.col5 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col2 = 30
+select tb22.col3,tb33.col5,tb33.col6 from tb22 join tb33 where tb22.col3 = tb33.col5
+insert into tb33 value (buLTo,81)
+select tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5 or tb11.col1 != 92
+select tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7
+select count(col5) as count_value_col5 from tb44 where tb11.col2 != 36
+select avg(co4) as average_value_co4 from tb22 where tb44.col5 < 66
+insert into tb44 value (95,wgPVg)
+insert into tb11 value (40,83)
+select * from tb33 join tb11 where tb33.col5 = tb11.col1
+select min(col6) as minimum_value_col6 from tb33 where tb22.col3 != 52
+select count(col5) as count_value_col5 from tb44 where tb11.col2 > 86
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 or tb11.col1 = 26 and tb11.col2 > 50
+select * from tb11 where tb33.col6 < 72
+select max(col1) as maximum_value_col1 from tb11 where tb11.col2 = 31 and tb11.col2 = 94
+select avg(col1) as average_value_col1 from tb11 where tb33.col5 != 34 or tb33.col5 != 2 or tb33.col5 != 51
+select tb33.col6,tb33.col6,tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb22.co4 = 99 or tb11.col2 < 69
+select count(col5) as count_value_col5 from tb33 where tb44.col5 != 62
+select count(col5) as count_value_col5 from tb33 where tb11.col1 > 78
+select max(tb22.co4) as maximum_value_co4,tb44.col7 from tb22 join tb44 where tb22.col3 = tb44.col7 or tb11.col1 < 8
+select avg(co4) as average_value_co4 from tb22 group by col5
+select * from tb11 where tb33.col6 != 81 or tb33.col6 < 97
+select count(tb33.col5) as count_value_col5 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb22.col3 > 0
+select * from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 < 23
+select avg(tb44.col7) as average_value_col7,tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(tb33.col6) as average_value_col6,tb33.col5,tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb22.co4 = 94
+insert into tb44 value (90,rUgqw)
+insert into tb44 value (97,m1WIt)
+select count(col5) as count_value_col5 from tb33 where tb44.col7 < 90 or tb44.col7 < 38 or tb44.col5 < 0
+select * from tb33 where tb11.col1 = 69 and tb11.col1 = 23
+select max(col6) as maximum_value_col6 from tb33 where tb33.col5 != 57 and tb33.col6 = 17
+select max(col7) as maximum_value_col7 from tb44 where tb33.col5 < 34 and tb33.col6 > 91
+select * from tb44 where tb44.col5 = 8
+insert into tb33 value (Mh5IR,60)
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 or tb11.col2 = 95
+select * from tb22 where tb33.col6 > 82
+select min(tb33.col6) as minimum_value_col6,tb33.col6,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select avg(tb11.col2) as average_value_col2,tb11.col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+select avg(tb22.co4) as average_value_co4,tb44.col7 from tb22 join tb44 where tb22.col3 = tb44.col7
+select count(col5) as count_value_col5 from tb44 where tb11.col2 > 65 or tb11.col2 > 73
+select avg(tb22.co4) as average_value_co4,tb11.col1 from tb22 join tb11 where tb22.col3 = tb11.col1
+select count(col5) as count_value_col5 from tb44 where tb33.col6 < 80 and tb33.col6 > 89 order by col6 desc
+select avg(col1) as average_value_col1 from tb11 where tb22.col3 < 88 and tb22.co4 > 15 and tb22.co4 > 29
+select max(col2) as maximum_value_col2 from tb11 where tb11.col2 > 6 and tb11.col1 > 30
+select * from tb44 where tb44.col7 < 32
+select avg(col7) as average_value_col7 from tb44 where tb22.co4 != 18
+select max(col1) as maximum_value_col1 from tb11 where tb33.col6 != 55
+select max(co4) as maximum_value_co4 from tb22 where tb33.col5 = 6 and tb33.col5 != 56
+select * from tb22 join tb11 where tb22.col3 = tb11.col1
+select * from tb44 where tb44.col5 < 25 and tb44.col7 != 55 and tb44.col5 != 48
+select max(tb11.col1) as maximum_value_col1,avg(tb33.col6) as average_value_col6,tb11.col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+insert into tb22 value (64,81)
+select max(co4) as maximum_value_co4 from tb22 where tb33.col5 > 60
+select min(tb11.col2) as minimum_value_col2,tb11.col1,tb11.col1 from tb22 join tb11 where tb22.col3 = tb11.col1
+select * from tb22 where tb11.col2 != 6
+select * from tb22 join tb11 where tb22.col3 = tb11.col1 or tb22.col3 < 90
+insert into tb44 value (72,GVmka)
+select * from tb22 join tb33 where tb22.col3 = tb33.col5
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select min(tb33.col6) as minimum_value_col6 from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb22 join tb44 where tb22.col3 = tb44.col7
+select min(col7) as minimum_value_col7 from tb44 where tb44.col5 < 0 and tb44.col5 = 28 and tb44.col5 > 56
+select min(col6) as minimum_value_col6 from tb33 where tb22.co4 > 70 or tb22.co4 < 13 and tb22.co4 = 84
+select min(col6) as minimum_value_col6 from tb33 where tb22.col3 > 16 or tb22.col3 < 82
+select max(co4) as maximum_value_co4 from tb22 where tb11.col2 > 64 and tb11.col1 = 42
+select * from tb22 where tb33.col5 > 70
+select tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7
+select max(col6) as maximum_value_col6 from tb33 where tb44.col7 = 35 or tb44.col5 > 99
+select min(col2) as minimum_value_col2 from tb11 where tb44.col5 < 68
+insert into tb44 value (43,QNAlT)
+select tb44.col5,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7 or tb22.co4 < 31
+select tb22.co4,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select tb11.col1 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col2 > 21 and tb22.col3 > 94
+select * from tb11 where tb44.col7 < 13 or tb44.col7 = 82 or tb44.col5 > 69
+select tb44.col5 from tb44 join tb11 where tb44.col7 = tb11.col1
+select * from tb33 where tb22.col3 = 62 order by co4 desc
+select * from tb22 join tb33 where tb22.col3 = tb33.col5
+insert into tb33 value (acpuB,0)
+select max(tb33.col6) as maximum_value_col6,min(tb11.col2) as minimum_value_col2,tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 < 98
+select * from tb44 join tb11 where tb44.col7 = tb11.col1
+select avg(col3) as average_value_col3 from tb22 where tb22.co4 = 77
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col1 = 88 and tb11.col2 < 39
+insert into tb44 value (15,f0oeY)
+select count(col5) as count_value_col5 from tb44 where tb22.col3 = 76 or tb22.co4 < 11 or tb22.co4 < 51
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 or tb11.col1 > 4
+select min(tb11.col1) as minimum_value_col1,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 != 73
+select tb11.col2,tb11.col1,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1
+select max(col1) as maximum_value_col1 from tb11 where tb44.col5 < 60 or tb44.col7 > 5
+select tb33.col6,tb11.col1 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb22.col3 = 19
+select * from tb22 join tb11 where tb22.col3 = tb11.col1
+select avg(tb33.col6) as average_value_col6,min(tb33.col6) as minimum_value_col6,tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb11.col1 > 56 and tb11.col1 = 1
+select max(tb11.col1) as maximum_value_col1,tb33.col6,tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1
+select tb44.col5,tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select min(col1) as minimum_value_col1 from tb11 where tb44.col5 < 20 order by col7 desc
+select min(col6) as minimum_value_col6 from tb33 where tb44.col5 != 16 and tb44.col7 > 57
+select * from tb33 where tb44.col7 = 65 and tb44.col5 < 20 or tb44.col7 = 13
+select max(tb11.col1) as maximum_value_col1,min(tb22.co4) as minimum_value_co4,tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1
+select * from tb44 join tb11 where tb44.col7 = tb11.col1
+select max(co4) as maximum_value_co4 from tb22 where tb11.col1 < 59
+select tb22.col3,tb33.col5,tb33.col5 from tb22 join tb33 where tb22.col3 = tb33.col5 and tb11.col2 = 34
+select min(col1) as minimum_value_col1 from tb11 where tb11.col2 < 45 and tb11.col2 = 53
+select max(co4) as maximum_value_co4 from tb22 where tb22.col3 < 6 or tb22.col3 != 98 order by col3 desc
+select max(col1) as maximum_value_col1 from tb11 where tb11.col1 = 99
+select tb33.col5 from tb22 join tb33 where tb22.col3 = tb33.col5 and tb11.col1 < 50
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 and tb22.col3 = 80 and tb22.col3 < 98
+select min(tb22.col3) as minimum_value_col3,tb44.col7,tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7
+select tb44.col5,tb11.col2,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 != 54 or tb11.col1 < 31
+select min(col6) as minimum_value_col6 from tb33 where tb44.col7 < 84 order by col7 desc
+select tb22.col3,tb22.col3,tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7 or tb22.col3 > 36
+select count(tb44.col5) as count_value_col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col1 != 74
+select * from tb22 join tb33 where tb22.col3 = tb33.col5
+select * from tb33 join tb11 where tb33.col5 = tb11.col1
+insert into tb22 value (72,20)
+select min(col2) as minimum_value_col2 from tb11 where tb22.col3 = 56 order by co4 desc
+select avg(col3) as average_value_col3 from tb22 where tb33.col6 > 34 and tb33.col5 = 52 or tb33.col5 > 3
+select tb22.col3,tb33.col5,tb22.col3 from tb22 join tb33 where tb22.col3 = tb33.col5
+select count(col5) as count_value_col5 from tb33 where tb44.col7 < 60
+select tb44.col7,tb44.col5,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 < 7
+select * from tb33 where tb22.co4 < 6 and tb22.col3 != 8 or tb22.co4 != 44
+select min(col1) as minimum_value_col1 from tb11 where tb22.co4 = 30 or tb22.co4 > 37
+insert into tb11 value (96,35)
+select * from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col1 > 21
+select tb11.col2,tb11.col2 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 = 60 and tb22.co4 < 86
+select * from tb11 where tb44.col5 > 78
+select count(tb44.col5) as count_value_col5,avg(tb44.col7) as average_value_col7,tb22.co4 from tb22 join tb44 where tb22.col3 = tb44.col7 or tb11.col1 = 26
+insert into tb22 value (45,51)
+select max(tb11.col1) as maximum_value_col1,avg(tb44.col7) as average_value_col7 from tb44 join tb11 where tb44.col7 = tb11.col1
+select * from tb22 where tb22.co4 != 30 and tb22.col3 = 12
+select tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 < 0 or tb22.co4 != 88
+select * from tb11 where tb33.col5 > 78
+select * from tb33 where tb44.col7 != 67 and tb44.col5 > 8 or tb44.col5 = 62
+select tb44.col5,tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col2 > 80
+insert into tb22 value (15,12)
+select * from tb22 join tb11 where tb22.col3 = tb11.col1
+select max(co4) as maximum_value_co4 from tb22 where tb22.col3 < 24 or tb22.col3 = 32
+select avg(col3) as average_value_col3 from tb22 where tb22.co4 != 33 and tb22.col3 > 74
+select tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb22.col3 > 31
+select tb44.col7,tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5
+select max(tb33.col6) as maximum_value_col6,tb22.col3 from tb22 join tb33 where tb22.col3 = tb33.col5 or tb22.co4 = 3
+select count(col5) as count_value_col5 from tb44 where tb44.col7 != 85 or tb44.col7 < 83
+select min(col2) as minimum_value_col2 from tb11 group by col5
+select count(col5) as count_value_col5 from tb44 where tb33.col5 != 5
+select * from tb11 where tb11.col1 != 59
+select count(col5) as count_value_col5 from tb33 group by col5
+select min(tb11.col2) as minimum_value_col2,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb11.col1 > 33
+select * from tb22 where tb22.col3 > 97 or tb22.col3 > 52
+select tb33.col5 from tb22 join tb33 where tb22.col3 = tb33.col5
+select * from tb33 where tb11.col1 != 65
+select avg(tb33.col6) as average_value_col6 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col1 = 72
+select min(tb33.col6) as minimum_value_col6 from tb44 join tb33 where tb44.col7 = tb33.col5
+select count(col5) as count_value_col5 from tb44 where tb22.co4 < 30
+insert into tb22 value (91,75)
+select * from tb22 join tb11 where tb22.col3 = tb11.col1
+select * from tb22 where tb44.col7 != 12
+select min(co4) as minimum_value_co4 from tb22 where tb33.col6 > 11 or tb33.col5 < 58
+select tb11.col2,tb11.col2,tb44.col5 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.co4 = 96
+select avg(tb22.col3) as average_value_col3 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col2 != 63 and tb22.col3 > 58
+insert into tb33 value (SPUEG,68)
+select count(tb33.col5) as count_value_col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(tb22.col3) as average_value_col3,tb33.col5 from tb22 join tb33 where tb22.col3 = tb33.col5
+select tb44.col5,tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb22.co4 != 93
+select min(co4) as minimum_value_co4 from tb22 where tb11.col2 < 5 order by col2 desc
+select avg(tb44.col7) as average_value_col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 > 13
+select * from tb11 where tb11.col2 != 70 or tb11.col2 < 50 or tb11.col1 > 44
+select min(tb11.col1) as minimum_value_col1 from tb33 join tb11 where tb33.col5 = tb11.col1
+select tb11.col1,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb22.co4 = 28 and tb22.co4 != 87
+select min(tb11.col1) as minimum_value_col1,tb11.col1,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.col3 != 0
+select tb22.col3,tb33.col5,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select * from tb22 where tb11.col2 > 43 or tb11.col2 < 50 and tb11.col2 = 29
+select max(tb11.col2) as maximum_value_col2,tb22.col3,tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1 or tb22.col3 < 19
+select max(tb22.co4) as maximum_value_co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select * from tb44 join tb11 where tb44.col7 = tb11.col1 or tb22.col3 > 27 and tb11.col1 != 42
+select * from tb44 where tb44.col7 < 25 and tb44.col5 < 16
+select avg(tb11.col1) as average_value_col1,max(tb11.col2) as maximum_value_col2 from tb44 join tb11 where tb44.col7 = tb11.col1
+insert into tb11 value (16,80)
+insert into tb44 value (26,Zr4uv)
+select tb11.col2,tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb11 where tb33.col5 > 41 or tb33.col6 > 17 and tb33.col6 != 77
+select max(tb22.col3) as maximum_value_col3,tb22.co4,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col1 < 21 or tb22.col3 < 24
+select avg(col3) as average_value_col3 from tb22 where tb33.col5 > 18
+select avg(co4) as average_value_co4 from tb22 where tb33.col5 > 8 and tb33.col6 != 96
+select max(col2) as maximum_value_col2 from tb11 where tb11.col2 != 0 and tb11.col1 < 79
+select max(tb11.col1) as maximum_value_col1,max(tb22.col3) as maximum_value_col3,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1 or tb22.col3 > 24
+insert into tb44 value (90,xpZCX)
+select * from tb22 join tb44 where tb22.col3 = tb44.col7
+select tb11.col1,tb22.co4,tb22.co4 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 > 79 or tb11.col2 < 96
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select max(col7) as maximum_value_col7 from tb44 where tb33.col5 > 52 or tb33.col6 != 53 and tb33.col6 != 36
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 and tb22.col3 < 70 and tb11.col1 < 53
+select avg(col3) as average_value_col3 from tb22 where tb11.col2 != 57
+insert into tb33 value (Ibg16,53)
+insert into tb44 value (43,pVORm)
+select * from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col2 > 33 and tb22.col3 = 73
+select min(tb22.col3) as minimum_value_col3 from tb22 join tb11 where tb22.col3 = tb11.col1 or tb22.col3 < 3
+insert into tb22 value (87,91)
+select tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb11.col1 < 56
+select count(col5) as count_value_col5 from tb33 where tb44.col5 = 37 and tb44.col5 = 19
+select max(tb11.col2) as maximum_value_col2,avg(tb44.col7) as average_value_col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 = 55 and tb22.co4 = 66
+insert into tb11 value (23,12)
+select tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select avg(col1) as average_value_col1 from tb11 where tb44.col7 = 9 and tb44.col5 > 73
+select count(tb33.col5) as count_value_col5,tb11.col1 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 < 18
+select avg(tb44.col7) as average_value_col7,tb33.col6 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb22.col3 = 90
+select max(tb44.col7) as maximum_value_col7,tb44.col5,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb22.col3 = 77 and tb11.col1 < 12
+select * from tb33 where tb22.col3 < 15 and tb22.co4 > 31
+select * from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 = 11 and tb22.col3 < 35
+select count(col5) as count_value_col5 from tb33 where tb22.co4 = 8 and tb22.co4 < 42
+select max(tb22.col3) as maximum_value_col3 from tb22 join tb33 where tb22.col3 = tb33.col5 or tb22.co4 = 62
+select avg(col1) as average_value_col1 from tb11 where tb11.col2 != 76
+select tb22.co4,tb22.co4,tb22.co4 from tb22 join tb44 where tb22.col3 = tb44.col7
+select * from tb22 where tb44.col5 = 82
+select tb11.col2,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1
+select tb33.col5,tb11.col1,tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1
+select avg(tb33.col6) as average_value_col6,tb33.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb11.col2 < 24 or tb22.col3 < 87
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(col3) as average_value_col3 from tb22 group by col5
+select tb22.co4 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.col3 = 31
+select avg(col2) as average_value_col2 from tb11 where tb33.col6 > 55 and tb33.col6 = 48
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select avg(col3) as average_value_col3 from tb22 where tb33.col6 = 22 or tb33.col5 < 55
+select count(tb33.col5) as count_value_col5,avg(tb11.col2) as average_value_col2,tb11.col1 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 > 82
+insert into tb11 value (77,37)
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 and tb11.col1 = 2 and tb11.col1 > 53
+select avg(co4) as average_value_co4 from tb22 where tb44.col7 != 96
+insert into tb22 value (10,37)
+select min(col1) as minimum_value_col1 from tb11 where tb44.col5 = 5 or tb44.col5 = 92
+select * from tb22 where tb11.col2 > 74
+select * from tb44 join tb11 where tb44.col7 = tb11.col1 or tb22.col3 > 4 and tb22.co4 = 32
+select * from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.co4 != 27
+select count(col5) as count_value_col5 from tb33 where tb11.col2 < 62 or tb11.col1 = 58 or tb11.col1 < 10
+select tb11.col2 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 = 37
+select count(tb33.col5) as count_value_col5,tb33.col5,tb33.col5 from tb22 join tb33 where tb22.col3 = tb33.col5
+insert into tb44 value (83,Y9ws3)
+select * from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb44 group by col5
+select max(col3) as maximum_value_col3 from tb22 where tb33.col6 > 84
+select * from tb22 join tb44 where tb22.col3 = tb44.col7
+select min(col2) as minimum_value_col2 from tb11 where tb22.co4 > 91 and tb22.col3 < 78
+select tb44.col5,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col2 < 42
+select count(col5) as count_value_col5 from tb33 where tb44.col5 != 54 and tb44.col5 != 82
+select count(tb44.col5) as count_value_col5,max(tb22.col3) as maximum_value_col3,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7
+select avg(col2) as average_value_col2 from tb11 where tb22.co4 != 88 or tb22.col3 != 16 and tb22.co4 = 46 order by co4 asc
+select tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1
+select * from tb44 where tb22.col3 > 26
+select count(col5) as count_value_col5 from tb44 where tb11.col1 = 48 or tb11.col1 < 82 and tb11.col1 != 82 order by col2 desc
+select tb22.co4 from tb22 join tb11 where tb22.col3 = tb11.col1
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 or tb22.co4 > 7
+insert into tb33 value (UkaT1,47)
+select * from tb11 where tb33.col6 != 91 and tb33.col5 = 79 and tb33.col6 != 76 order by col6 desc
+select * from tb44 group by col5
+select tb44.col7,tb44.col5,tb11.col1 from tb44 join tb11 where tb44.col7 = tb11.col1 or tb22.col3 > 89 or tb22.col3 = 31
+select * from tb22 where tb44.col7 = 96 or tb44.col5 != 87 or tb44.col5 < 77 order by col7 asc
+insert into tb11 value (95,25)
+select avg(col6) as average_value_col6 from tb33 where tb44.col7 = 3 and tb44.col5 > 1
+select max(col7) as maximum_value_col7 from tb44 where tb11.col1 < 48 and tb11.col1 > 37
+select * from tb33 where tb44.col5 = 96 and tb44.col5 = 80
+select * from tb11 where tb11.col2 = 10 and tb11.col2 != 34 and tb11.col1 < 65
+select tb11.col2 from tb44 join tb11 where tb44.col7 = tb11.col1
+select tb44.col7 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb11.col1 > 90
+insert into tb44 value (96,be5Ur)
+select min(col3) as minimum_value_col3 from tb22 where tb33.col6 = 82 and tb33.col5 = 22 and tb33.col6 = 94
+select max(col2) as maximum_value_col2 from tb11 where tb11.col1 < 4 or tb11.col1 = 85 and tb11.col1 = 93
+select * from tb44 join tb33 where tb44.col7 = tb33.col5 or tb11.col2 > 40
+select min(col7) as minimum_value_col7 from tb44 where tb11.col1 > 28
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col1 = 10
+select min(col1) as minimum_value_col1 from tb11 where tb44.col5 = 31 or tb44.col5 < 37
+select count(col5) as count_value_col5 from tb33 where tb44.col7 = 40
+select * from tb44 where tb44.col7 > 5
+select min(col6) as minimum_value_col6 from tb33 where tb22.col3 = 59
+select * from tb44 join tb33 where tb44.col7 = tb33.col5
+select max(col6) as maximum_value_col6 from tb33 where tb33.col5 != 24 or tb33.col6 != 10 or tb33.col6 < 65
+select min(col3) as minimum_value_col3 from tb22 where tb44.col5 = 30 order by col7 asc
+select count(tb33.col5) as count_value_col5,count(tb33.col5) as count_value_col5 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 = 50 or tb22.co4 != 10
+select * from tb22 join tb33 where tb22.col3 = tb33.col5 or tb22.co4 > 87 and tb11.col2 = 65
+select * from tb11 where tb22.co4 != 74
+select * from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col1 != 59
+select max(col6) as maximum_value_col6 from tb33 where tb11.col2 = 95 or tb11.col1 != 3 and tb11.col2 > 16
+insert into tb33 value (OCokL,45)
+insert into tb44 value (0,xnplO)
+select * from tb44 join tb11 where tb44.col7 = tb11.col1
+select tb33.col5,tb33.col5,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+select tb33.col5 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb22.co4 != 65
+select * from tb22 where tb11.col2 > 4 or tb11.col2 = 34
+select tb11.col1,tb22.col3,tb22.col3 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.co4 < 67
+insert into tb22 value (66,15)
+select tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5 or tb22.co4 = 39
+select count(tb44.col5) as count_value_col5,tb22.col3 from tb22 join tb44 where tb22.col3 = tb44.col7
+select min(col2) as minimum_value_col2 from tb11 where tb44.col7 > 33 and tb44.col7 = 37
+select tb33.col6,tb22.co4 from tb22 join tb33 where tb22.col3 = tb33.col5
+insert into tb33 value (aU4PW,4)
+select * from tb44 join tb11 where tb44.col7 = tb11.col1
+select tb33.col6,tb11.col2 from tb33 join tb11 where tb33.col5 = tb11.col1
+select avg(tb11.col2) as average_value_col2,tb44.col7,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 < 94
+select tb44.col5,tb44.col7 from tb44 join tb33 where tb44.col7 = tb33.col5 and tb22.co4 < 61
+select avg(tb44.col7) as average_value_col7,tb22.col3,tb44.col5 from tb22 join tb44 where tb22.col3 = tb44.col7
+select min(col1) as minimum_value_col1 from tb11 where tb22.col3 = 21 and tb22.col3 > 81
+select min(tb11.col2) as minimum_value_col2,avg(tb22.col3) as average_value_col3 from tb22 join tb11 where tb22.col3 = tb11.col1
+select count(col5) as count_value_col5 from tb33 where tb33.col5 = 76 or tb33.col5 != 7
+select min(col1) as minimum_value_col1 from tb11 where tb22.col3 = 38 and tb22.col3 != 28 and tb22.co4 < 53
+insert into tb22 value (97,4)
+select * from tb22 where tb22.co4 < 74 or tb22.co4 != 7 or tb22.col3 != 28
+select avg(col1) as average_value_col1 from tb11 where tb22.col3 > 82
+select count(col5) as count_value_col5 from tb44 group by col5
+select tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1
+select tb22.co4,tb11.col2,tb11.col1 from tb22 join tb11 where tb22.col3 = tb11.col1 and tb22.co4 > 96 or tb22.co4 = 89
+select count(col5) as count_value_col5 from tb33 where tb44.col7 != 72 or tb44.col7 > 31
+select count(col5) as count_value_col5 from tb44 where tb22.co4 < 72
+select * from tb44 where tb33.col5 != 73
+select min(col1) as minimum_value_col1 from tb11 where tb33.col6 != 84
+insert into tb11 value (34,40)
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb22.col3 = 39
+select * from tb22 where tb22.col3 = 86
+select avg(co4) as average_value_co4 from tb22 where tb22.col3 < 49
+select tb44.col7,tb11.col1,tb11.col2 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb11.col1 > 69
+select tb11.col1,tb44.col5,tb44.col7 from tb44 join tb11 where tb44.col7 = tb11.col1 and tb22.col3 != 4
+select count(col5) as count_value_col5 from tb33 where tb33.col6 = 52
+select max(tb33.col6) as maximum_value_col6 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col2 = 92 and tb22.co4 > 14
+select min(col7) as minimum_value_col7 from tb44 where tb33.col5 > 22 and tb33.col5 > 17
+select avg(col3) as average_value_col3 from tb22 where tb33.col5 != 36 or tb33.col6 > 17 and tb33.col5 > 91
+select min(col7) as minimum_value_col7 from tb44 where tb11.col2 = 33
+select tb11.col1,tb33.col6 from tb33 join tb11 where tb33.col5 = tb11.col1 and tb11.col2 < 37
+select * from tb11 where tb11.col2 < 62 or tb11.col2 > 57 and tb11.col2 = 88
+select count(col5) as count_value_col5 from tb44 where tb33.col5 < 82
+insert into tb22 value (2,20)
+select count(col5) as count_value_col5 from tb33 where tb11.col2 > 39
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col2 = 34
+select * from tb44 where tb33.col6 = 57 and tb33.col5 != 31
+select tb22.co4 from tb22 join tb44 where tb22.col3 = tb44.col7 and tb22.co4 > 77
+select count(col5) as count_value_col5 from tb33 where tb22.col3 > 90 and tb22.col3 != 43
+select min(col1) as minimum_value_col1 from tb11 where tb33.col5 != 13 or tb33.col6 = 84
+select tb22.co4,tb22.co4,tb11.col2 from tb22 join tb11 where tb22.col3 = tb11.col1
+insert into tb33 value (iE84X,17)
+select min(tb11.col2) as minimum_value_col2 from tb33 join tb11 where tb33.col5 = tb11.col1 or tb11.col2 = 68
+select max(col2) as maximum_value_col2 from tb11 where tb11.col1 < 0
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb22.co4 = 57
+select avg(tb33.col6) as average_value_col6,tb44.col5 from tb44 join tb33 where tb44.col7 = tb33.col5
+select count(col5) as count_value_col5 from tb33 where tb33.col5 > 88
+select min(co4) as minimum_value_co4 from tb22 where tb22.co4 < 68
+select avg(col3) as average_value_col3 from tb22 where tb44.col7 = 20 or tb44.col5 != 92
+insert into tb44 value (99,7Vu0N)
+select tb33.col6,tb33.col6,tb22.col3 from tb22 join tb33 where tb22.col3 = tb33.col5 and tb11.col1 < 53
+insert into tb11 value (28,47)
+select * from tb22 join tb44 where tb22.col3 = tb44.col7 and tb11.col2 != 34
+select avg(co4) as average_value_co4 from tb22 where tb11.col1 < 12
+select count(col5) as count_value_col5 from tb33 where tb44.col7 = 12 or tb44.col5 > 15
